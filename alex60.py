@@ -33,7 +33,7 @@ TURBIDITY_MONTHLY = [2.1, 2.2, 2.5, 2.9, 3.2, 3.4, 3.5, 3.3, 2.9, 2.6, 2.3, 2.1]
 
 configs = [
     {"name": "Balkon", "lat": 49.482869333, "lon": 8.2741404808, "wp": 450, "num": 2, "tilt": 60, "azi": 185, "color": "#f1c40f", "shade": None},
-{"name": "Balkon", "lat": 49.482869333, "lon": 8.2741404808, "wp": 450, "num": 1, "tilt": 90, "azi": 185, "color": "#f1c40f", "shade": None}]
+{"name": "Balkon Wand", "lat": 49.482869333, "lon": 8.2741404808, "wp": 450, "num": 1, "tilt": 90, "azi": 185, "color": "#f1c40f", "shade": None}]
 
 @st.cache_data(ttl=3600)
 def get_weather_dwd(lat, lon, start, end):
